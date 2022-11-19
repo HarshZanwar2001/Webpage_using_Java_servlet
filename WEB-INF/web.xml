@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<display-name>index</display-name>
+<servlet-name>BloodBank</servlet-name>
+<servlet-class>RegisterFile</servlet-class>
+</servlet>
+ <servlet-mapping>
+    <servlet-name>BloodBank</servlet-name>
+    <url-pattern>/RegisterFile</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+<display-name>Login</display-name>
+<servlet-name>LoginBank</servlet-name>
+<servlet-class>LoginFile</servlet-class>
+</servlet>
+ <servlet-mapping>
+    <servlet-name>LoginBank</servlet-name>
+    <url-pattern>/LoginFile</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+<display-name>DonarForm</display-name>
+<servlet-name>Doners</servlet-name>
+<servlet-class>Doner</servlet-class>
+</servlet>
+ <servlet-mapping>
+    <servlet-name>Doners</servlet-name>
+    <url-pattern>/Doner</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

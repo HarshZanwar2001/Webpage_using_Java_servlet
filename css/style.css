@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+background-color: blanchedalmond;
+height: 100vh;
+background-size: cover;
+background-position: center;
+
+
+}
+ul{
+
+float: right;
+list-style-type: none;
+margin-top: 20px;
+margin-right: 1px;
+}
+
+ul li{
+display: inline-block;
+}
+ ul li a{
+text-decoration: none;
+color: rgb(245, 18, 18);
+padding: 5px 25px;
+border: 1px solid ;
+transition: o.6s ease;
+
+
+ }
+ ul li a:hover{
+     background-color: rgb(223, 103, 56);
+     color: rgba(240, 245, 247, 0.986);
+ }
+ ul.li.active a{
+
+    background-color: rgb(241, 22, 22);
+    color: brown;
+ }
+ .main{
+
+    max-width: 1200px;
+    margin:default;
+
+ }
+ .title{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform:translate(-50%,-50%) ;
+
+ }
+ .title h1{
+
+    color: teal;
+    font-size: 70px;
+    
+ }
+ .title input{
+        display: inline-block;
+padding: 15px 25px;
+margin-left: 40%;
+font-size: 12px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #f1614e;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px rgb(226, 225, 224);
+align: right;
+
+    }
+    .tiyle.input:hover {background-color: #d3331e}
+    .input:active {
+        background-color: #f51c0c;
+        box-shadow: 0 5px rgb(29, 25, 25);
+        transform: translateY(4px);
+    }
+
+.title.button:active {
+background-color: #f51c0c;
+box-shadow: 0 5px rgb(29, 25, 25);
+transform: translateY(4px);
+}
+ 
+ .Getdata{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 40px;
+
+ }
+   
+ .Getdata h1{
+     color: brown;
+top:30%;
+
+
+
+
+ }
+ .Getdata input{
+     font-size: 30px;
+     background-color: cornsilk;
+
+ }
+ .Regis h1{
+     margin-top: 50%;
+     margin-right: 70%;
+     color: rgb(253, 253, 253);
+
+ }
+ .Regis input{
+    font-size: 20px;
+    background-color: cornsilk;
+    font-style: normal;
+    color: crimson;
+
+ }

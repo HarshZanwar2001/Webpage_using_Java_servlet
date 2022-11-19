@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:#db2404;
+}
+.Doner{
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f8f5f5;
+    text-align: center;
+    border-radius: 17px;
+    
+}
+.Doner input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0e0c0c;
+    padding: 5px 6px;
+    width: 200px;
+    outline: none;
+    color: rgb(17, 16, 16);
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 20px;
+
+}
+.Doner input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0e0c0c;
+    padding: 5px 6px;
+    width: 200px;
+    outline: none;
+    color: rgb(17, 16, 16);
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 20px;
+
+}
+.Doner label{
+     align-self: start;
+    color: rgb(240, 44, 44);
+
+}
+.Doner input[type="text"]:focus,.Doner input[type="email"]:focus{
+    width: 300px;
+    border-color: rgb(141, 240, 137);
+    background-color: rgb(255, 255, 255);
+}
+.Doner input[type="submit"]{
+    border: 0;
+    background: #020202;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f7f57e;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(247, 245, 245);
+    border-radius: 24px;
+ transition: 0.25s;
+ cursor: pointer;
+
+
+}
+.Doner input[type="submit"]:hover
+{
+    background: #d6f045;
+    color: black;
+    
+
+
+}
+.Doner input[type="date"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0e0c0c;
+    padding: 5px 6px;
+    width: 200px;
+    outline: none;
+    color: rgb(17, 16, 16);
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 20px;
+
+}
+.Doner input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0e0c0c;
+    padding: 5px 6px;
+    width: 200px;
+    outline: none;
+    color: rgb(17, 16, 16);
+    border-radius: 20px;
+    transition: 0.25s;
+
+}

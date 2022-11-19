@@ -1,0 +1,27 @@
+.Doner{
+    margin-top: 10%;
+    margin-left: 40%;
+
+}
+.Doner label{
+  color: rgb(255, 255, 255);
+   font-size: 25px;
+   font-style: normal;
+
+}
+body{
+    background-color: rgb(212, 27, 64);
+}
+ .Doner input{
+     color: #000;
+     font-size: 15px;
+     width: 30%; 
+     background-color: rgb(252, 237, 188);
+    }
+.Doner input button{
+    background-color: rgb(253, 161, 138);
+} 
+.Doner input select{
+    background-color: rgb(252, 237, 188);
+}
+
